@@ -7,7 +7,7 @@ This is a simple **terminal-based Hangman game** where the player guesses letter
 ---
 
 ## 🎮 **Gameplay Screenshot**
-![Hangman Game Screenshot](YOUR_IMAGE_URL)
+![Gameplay Screenshot](https://drive.google.com/file/d/1AclMld8k2vQNPA_pnydhZnPXlsA2k2Yi/view?usp=sharing)
 
 ---
 
@@ -20,8 +20,4 @@ This is a simple **terminal-based Hangman game** where the player guesses letter
 
 ---
 
-## 🛠 **Installation & Setup**
-### **1️⃣ Clone this repository**
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/hangman-game.git
-cd hangman-game
+
