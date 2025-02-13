@@ -8,7 +8,7 @@ print(art.hangman_game_title)
 chosen_word = random.choice(words.word_list)
 chosen_word_len = len(chosen_word)
 word_to_guess = "_" * chosen_word_len
-lives = len(art.stages) - 1  # Adjust lives dynamically
+lives = len(art.stages) # Adjust lives dynamically
 game_over = False
 guess_history = []
 
