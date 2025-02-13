@@ -7,7 +7,7 @@ This is a simple **terminal-based Hangman game** where the player guesses letter
 ---
 
 ## 🎮 **Gameplay Screenshot**
-![Gameplay Screenshot]([https://drive.google.com/file/d/1AclMld8k2vQNPA_pnydhZnPXlsA2k2Yi/view?usp=sharing](https://drive.google.com/file/d/1AclMld8k2vQNPA_pnydhZnPXlsA2k2Yi/view?usp=sharing))
+![Gameplay Screenshot](https://drive.google.com/file/d/1AclMld8k2vQNPA_pnydhZnPXlsA2k2Yi/view?usp=sharing)
 
 ---
 
@@ -15,7 +15,6 @@ This is a simple **terminal-based Hangman game** where the player guesses letter
 ✅ Randomly selects a word from a predefined list  
 ✅ Tracks guessed letters and prevents duplicate guesses  
 ✅ Displays Hangman ASCII art corresponding to the number of remaining lives  
-✅ Dynamic lives adjustment based on word length  
 ✅ Modularized code with separate files for game logic, artwork, and utilities  
 
 ---
