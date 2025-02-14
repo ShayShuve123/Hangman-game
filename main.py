@@ -5,12 +5,17 @@ import hangman_words as words
 import utils
 
 print(art.hangman_game_title)
-chosen_word = random.choice(words.word_list)
+
+# generate word randomly 
+chosen_word = random.choice(list(words.word_hints.keys()))
+chosen_hint = words.word_hints[chosen_word]
+
 chosen_word_len = len(chosen_word)
 word_to_guess = "_" * chosen_word_len
 lives = len(art.stages) # Adjust lives dynamically
 game_over = False
 guess_history = []
+print(f"Hint: {chosen_hint}")
 
 while not game_over:
     print(f"Word to guess:{word_to_guess}")
@@ -22,7 +27,7 @@ while not game_over:
     elif user_guess in chosen_word:
         print(f"You guessed Right,{user_guess} is in the word")
 
-        # replace the all the blank with the guess letter
+        # replace all the blanks with the guessed letter
         word_to_guess = ""
         for letter in chosen_word:
             if letter == user_guess:
@@ -34,7 +39,7 @@ while not game_over:
 
         print(f"Word to guess: {word_to_guess}")
 
-        # if all the letter in the word_to_guess are not equal to '_' ,means the user successfully guess the word
+        # If all the letters in the word_to_guess are not equal to '_' , means the user successfully guessed the word
         if "_" not in word_to_guess:
             game_over = True
             print(f"🎉 Congratulations! You guessed the word: {chosen_word}")
