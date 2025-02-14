@@ -7,7 +7,7 @@ This is a simple **terminal-based Hangman game** where the player guesses letter
 ---
 
 ## 🎮 **Gameplay Screenshot**
-![Gameplay Screenshot](https://drive.google.com/uc?export=view&id=1AclMld8k2vQNPA_pnydhZnPXlsA2k2Yi)
+![Gameplay Screenshot](https://drive.google.com/file/d/12GOdBZ20Q7Ah65RaAOfQPM8ypLvicyiF/view?usp=sharing)
 
 ---
 
